@@ -6,7 +6,7 @@
   <remote fetch="https://git.yoctoproject.org/git" name="yocto"/>
   <remote fetch="https://github.com/openembedded" name="oe"/>
   <remote fetch="https://github.com/aragua" name="aragua"/>
-  <remote fetch="https://git.eukrea.fr/eukrea-oe/" name="eukrea"/>
+  <remote fetch="git://git.eukrea.fr/eukrea-oe/" name="eukrea"/>
   
   <project remote="yocto" revision="fido" name="poky" path="sources/poky"/>
   <project remote="eukrea" revision="master" name="meta-eukrea" path="sources/meta-eukrea"/>
