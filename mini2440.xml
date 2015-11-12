@@ -12,7 +12,7 @@
   <project remote="mini2440" revision="master" name="meta-mini2440" path="sources/meta-mini2440"/>
   <project remote="oe" revision="fido" name="meta-openembedded" path="sources/meta-openembedded"/>
   <project remote="aragua" revision="fido" name="meta-aragua" path="sources/meta-aragua">
-    <copyfile dest="setup-environment" src="base/raspberrypi/setup-environment"/>
+    <copyfile dest="setup-environment" src="base/mini2440/setup-environment"/>
   </project>
 
 </manifest>
