@@ -9,5 +9,6 @@
 
   <project remote="yocto" revision="fido" name="poky" path="."/>
   <project remote="oe" revision="fido" name="meta-openembedded" path="meta-openembedded"/>
+  <project remote="qt5" revision="fido" name="meta-qt5" path="meta-qt5"/>
 
 </manifest>
