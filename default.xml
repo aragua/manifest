@@ -11,4 +11,8 @@
   <project remote="oe" revision="fido" name="meta-openembedded" path="meta-openembedded"/>
   <project remote="qt5" revision="fido" name="meta-qt5" path="meta-qt5"/>
 
+  <project remote="aragua" revision="fido" name="meta-aragua" path="sources/meta-aragua">
+    <!--    <copyfile dest="setup-environment" src="base/raspberrypi/setup-environment"/> /-->
+  </project>
+  
 </manifest>
