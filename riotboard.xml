@@ -8,14 +8,16 @@
   <remote fetch="git://git.openembedded.org" name="oe" />
   <remote fetch="git://git.freescale.com/imx" name="fsl-release" />
   <remote fetch="git://github.com/OSSystems" name="OSSystems"/>
-  <remote name="embest-tech-github"
-           fetch="git://github.com/embest-tech/" />
+  <remote fetch="git://github.com/aragua" name="aragua"/>
+  <remote name="embest-tech-github" fetch="git://github.com/embest-tech/" />
 
-  <project remote="yocto" revision="dizzy" name="poky" path="sources/poky"/>
-  <project remote="yocto" revision="dizzy" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="yocto" revision="fido" name="poky" path="sources/poky"/>
+  <project remote="yocto" revision="fido" name="meta-fsl-arm" path="sources/meta-fsl-arm"/>
+  <project remote="oe" revision="fido" name="meta-openembedded" path="sources/meta-openembedded"/>
+  <project remote="aragua" revision="fido" name="meta-aragua" path="sources/meta-aragua"/>
 
-  <project remote="oe" revision="dizzy" name="meta-openembedded" path="sources/meta-openembedded"/>
 
+  <!--
   <project remote="freescale" revision="dizzy" name="fsl-community-bsp-base" path="sources/base">
 	<copyfile dest="README" src="README"/>
 	<copyfile dest="setup-environment" src="setup-environment"/>
@@ -29,4 +31,8 @@
   <project remote="embest-tech-github" name="meta-fsl-bsp-release" path="sources/meta-fsl-bsp-release" revision="embest_dora_3.10.17-1.0.0_GA">
      <copyfile src="imx/tools/fsl-setup-release.sh" dest="fsl-setup-release.sh" />
   </project>
+
+/-->
+
   </manifest>
+  
