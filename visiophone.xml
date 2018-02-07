@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+  <default sync-j="4" revision="master" />
+  <include name="yocto.xml" />
+  <include name="oe.xml" />
+  <include name="sunxi.xml" />
+</manifest>
